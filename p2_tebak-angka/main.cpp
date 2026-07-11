@@ -1,3 +1,5 @@
+// Proyek ke 2, Permainan tebak angka
+
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
@@ -58,4 +60,6 @@ int main() {
   } while (ngulang == 'y' || ngulang == 'Y');
 
   std::cout << "Terima kasih sudah bermain!\n";
+
+  return 0;
 }
